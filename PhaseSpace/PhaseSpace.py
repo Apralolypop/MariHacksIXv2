@@ -23,7 +23,7 @@ def euler(f, x0, dt, N):
     return x
 
 dt = (T - t0) / N
-x0 = np.array([2.0, 1.0, 0.0])
+x0 = np.array([2, 2.0, 0.0]) # Initial position = 2 radians, velocity = 1 rad/s, time = 0
 results = euler(f1, x0, dt, N)
 
 
